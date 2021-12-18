@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS  -XX:-UseGCOverheadLimit -XX:+UseShenandoahGC -Xms128m -Xmx128m -Dlog4j2.formatMsgNoLookups=true -Dfile.encoding=UTF-8 -Dserver.port=$PORT -jar apps/info-providr/target/mh-info-provider.jar
